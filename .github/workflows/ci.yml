@@ -67,6 +67,7 @@ jobs:
     #a private repository without Advanced Security refuses SARIF uploads, so the findings gate the job here instead
     runs-on: ubuntu-24.04
     permissions:
+      actions: read
       contents: read
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
