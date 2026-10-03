@@ -163,3 +163,8 @@ Thumbs.db
 #------------------------------------------------------------------------------
 #all markdown uncommitted — negate per-repo with !README.md if truly needed
 *.md
+#per-repo
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
